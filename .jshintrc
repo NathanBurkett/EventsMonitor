@@ -1,0 +1,18 @@
+{
+  "asi": true,
+  "bitwise": true,
+  "curly": true,
+  "eqeqeq": true,
+  "forin": true,
+  "boss":true,
+  "latedef": "nofunc",
+  "esnext": true,
+  "indent": 4,
+  "funcscope": false,
+  "globalstrict": false,
+  "iterator": false,
+  "smarttabs": true,
+  "validthis": true,
+  "browser": true,
+  "maxerr": 100
+}
