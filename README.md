@@ -10,14 +10,11 @@ events.
 // Instantiate the class
 let Monitor = new EventsMonitor();
 
-// Find an element we want to listen to events for
-const anchor = document.querySelector("#example-anchor");
-
 // Add the event tracking
 Monitor.addEvent({
-    el: anchor,
+    el: document.querySelector("#example-anchor"),
     event: 'click',
-    fn: (event) => {
+    fn: event => {
         console.log('anchor clicked');
     }
 });
